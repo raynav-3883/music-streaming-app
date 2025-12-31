@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "music-streaming-app",
-    "slug": "music-streaming-app",
+    "name": "music-straming-app",
+    "slug": "music-straming-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,32 +16,15 @@
       "supportsTablet": true
     },
     "android": {
-      "permissions": [
-        "FOREGROUND_SERVICE",
-        "FOREGROUND_SERVICE"
-      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false,
-      "package": "com.raynav.musicstreamingapp"
+      "predictiveBackGestureEnabled": false
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "d9a925f9-d18e-43ea-b4f5-9ed4d6e4d4f2"
-      }
-    },
-    "owner": "raynav",
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/d9a925f9-d18e-43ea-b4f5-9ed4d6e4d4f2"
     }
   }
 }
